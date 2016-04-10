@@ -1,7 +1,50 @@
-body { 
+nav li{
+	list-style: none;
+	display: inline;
+	margin-left: 25px;
+}
 
-	background-color: Orange;
-	background-size: 640px;
 
+nav li:nth-child(1) {
+	float: left;
+	margin-left: 0;
+} 
 
- }
+nav a{
+	color: #767676;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+nav ul:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+#book-now {
+	color: white;
+	padding: 2px 10px;
+
+	background: #db3b32;
+}
+
+nav li:not(:nth-child(1)) {
+	line-height: 59px;
+}
+
+nav ul{
+	text-align: right;
+	padding: 0px;
+	width: 1302px;
+	margin: 0px auto;
+	padding: 0 32px;
+}
+
+nav img{
+	text-align: left;
+}
