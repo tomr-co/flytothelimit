@@ -29,7 +29,6 @@ nav ul:after {
 #book-now {
 	color: white;
 	padding: 2px 10px;
-
 	background: #db3b32;
 }
 
@@ -47,4 +46,9 @@ nav ul{
 
 nav img{
 	text-align: left;
+}
+
+#social li img{
+	display: block;
+	text-align:left;
 }
