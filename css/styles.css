@@ -48,7 +48,18 @@ nav img{
 	text-align: left;
 }
 
-#social li img{
+#social li {
 	display: block;
 	text-align:left;
+	width: 36px;
+	margin-top: -10px;
 }
+
+#social li:nth-child(1) {
+	margin-top: 20px;
+	margin-bottom: 12px;
+	margin-left: 25px;
+}
+
+
+
