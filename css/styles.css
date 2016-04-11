@@ -1,3 +1,16 @@
+/*body {
+	background-image: url(file://localhost/Users/845847739/Sites/fly-to-the-limit/img/hero-image-homepage.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	height: 100vh;
+}
+*/
+
+body {
+	margin: 0px auto;
+}
+
+
 nav li{
 	list-style: none;
 	display: inline;
@@ -63,4 +76,10 @@ nav img{
 }
 
 
+#hero-header {
+	background-image: url(file://localhost/Users/845847739/Sites/fly-to-the-limit/img/hero-image-homepage.jpg);
+	background-size: cover;
+	position: relative;
+	height: 100vh;
+}
 
