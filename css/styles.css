@@ -52,6 +52,9 @@ nav img{
 	text-align: left;
 }
 
+#social {
+	clear: both;
+}
 
 #social li {
 	display: block;
@@ -64,7 +67,6 @@ nav img{
 #social li:nth-child(1) {
 	margin-top: 20px;
 	margin-bottom: 12px;
-	margin-left: 0px;
 }
 
 
@@ -74,4 +76,11 @@ nav img{
 	position: relative;
 	height: 100vh;
 }
+
+#scroll-icon {
+	position: absolute;
+	top: 85%;
+	left: 50%;
+}
+
 
