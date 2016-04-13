@@ -52,6 +52,9 @@ nav img{
 	text-align: left;
 }
 
+#social {
+	clear: both;
+}
 
 #social li {
 	display: block;
@@ -64,7 +67,6 @@ nav img{
 #social li:nth-child(1) {
 	margin-top: 20px;
 	margin-bottom: 12px;
-	margin-left: 0px;
 }
 
 
@@ -75,3 +77,65 @@ nav img{
 	height: 100vh;
 }
 
+#scroll-icon {
+	position: absolute;
+	top: 85%;
+	left: calc(50% - 20.5px); /* always aligns to the left of the image, we then take away half the size of the image to perfectly center*/ 
+}
+
+
+#about-section {
+	background-color: #efefef;
+	padding-top: 35px;
+}
+
+#about-section article {
+	padding: 0px;
+	width: 1302px;
+	margin: 0px auto;
+	padding: 0 32px;
+}
+
+h1 {
+	font-family: sans-serif;
+	text-align: center;
+	padding-bottom: 30px;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+
+p {
+	font-family: sans-serif;
+	font-size: 15px;
+	text-align: center;
+	box-sizing: border-box;
+	padding: 0 32px;
+}
+
+.about-col {
+	box-sizing: border-box;
+	width: 33.33%;
+	padding: 100px 35px;
+	margin: 0 auto;
+	float: left;
+}
+
+.about-col img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+ 
+
+
+#about-section:after {
+	content: '';
+	display: block;
+	clear:both;
+}
