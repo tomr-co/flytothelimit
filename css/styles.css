@@ -166,10 +166,24 @@ a {
 }
 
 .products {
-	width: 33%;
+	width: 30%;
 	box-sizing: border-box;
 	background-color: #efefef;
 	padding-bottom: 35px;
+	float: left;
+	margin-left: 1.5%;
+	margin-right: 1.5%;
+	margin-bottom: 3%;
+}
+
+.products:nth-child(1) {
+	margin-left: 0%;
+	background-color: purple;
+}
+
+.products:nth-child(3) {
+	margin-right: 0%;
+	background-color: red;
 }
 
 .products img {
@@ -185,5 +199,17 @@ a {
 	color: #000;
 	margin-left: calc(50% - 18%); /* always aligns to the left of the image, we then take away half the size of the image to perfectly center*/ 
 }
+
+
+iframe {
+	padding-left: 20px;
+	margin-right: 19.5px;
+	float: left;
+
+}
+
+
+
+
 
 
